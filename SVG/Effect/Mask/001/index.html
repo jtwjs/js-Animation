@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>SVG Mask</title>
+</head>
+<body>
+    <svg class="the-svg">
+        <defs>
+            <mask id="mask-circle">
+                <circle cx="100" cy="120" r="40" fill="white"/>
+            </mask>
+        </defs>
+        <g mask="url(#mask-circle)">
+            <text x="10" y="150">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!
+            </text>
+        </g>
+    </svg>
+    
+</body>
+</html>

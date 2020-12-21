@@ -1,0 +1,25 @@
+.the-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+}
+
+@keyframes face-ani {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(0.8);
+  }
+}
+
+.cat-face {
+  animation: face-ani 1s alternate infinite;
+}
+
+.magnifier {
+  transform-origin: center;
+}
