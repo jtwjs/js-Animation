@@ -1,2 +1,2 @@
 # js-Animation
-canvas, svg
+Learning canvas, svg
