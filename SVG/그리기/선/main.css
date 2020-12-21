@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.stroke {
+  width: 400px;
+  height: 400px;
+  background: #ddd;
+}
+
+line {
+  stroke: blue;
+}
+
+polyline {
+  stroke: red;
+  stroke-width: 20;
+}
+
+polygon {
+  stroke: navy;
+  stroke-width: 5;
+}

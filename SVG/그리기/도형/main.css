@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.shapes {
+  width: 600px;
+  height: 400px;
+  background: #ddd;
+}
+
+rect {
+  fill: orange;
+  stroke: dodgerblue;
+  stroke-width: 10;
+}
+
+ellipse {
+  fill: azure;
+}
