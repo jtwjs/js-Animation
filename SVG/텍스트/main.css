@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+}
+
+path {
+  fill: transparent;
+  stroke: red;
+}
+text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  fill: red;
+}
+
+.special {
+  fill: blue;
+}

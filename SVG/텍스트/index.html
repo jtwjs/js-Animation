@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>svg 텍스트</title>
+</head>
+<body>
+    <svg class="svg" xmlns="http://www.w3.org/2000.svg">
+        <defs>
+            <path id="text-curve" d="M 50 400 C 50 400, 300 500, 400 400 C 400 400, 600 170, 700 300"/>
+        </defs>
+        <text x="20" y="20">
+            <textPath href="#text-curve">
+            Lorem <tspan class="special" dy="-30 20 30 50 30" dx="20 30 50 70 30">ipsum</tspan> dolor sit amet consectetur adipisicing elit. Aliquid, debitis! Culpa, illum itaque. Quia, provident aut culpa ad error fugit doloremque accusantium, consequatur saepe, delectus pariatur rem voluptates numquam velit!
+            </textPath>
+        </text>
+    </svg>
+    
+</body>
+</html>
