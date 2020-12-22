@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+@keyframes dash-ani {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+text {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  stroke: red;
+  fill: transparent;
+  animation: dash-ani 2s alternate infinite;
+}
