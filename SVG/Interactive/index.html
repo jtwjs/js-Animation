@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script type="text/javascript" src="./main.js" defer></script>
+    <title>SVG Interactive</title>
+</head>
+<body>
+    <svg class="react-mon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 768 768" style="enable-background:new 0 0 768 768;" xml:space="preserve">
+        <defs>
+            <mask id="eye-mask">
+                <ellipse class="eye" cx="384" cy="384" rx="28" ry="14"/>        
+            </mask>
+        </defs>
+        <g class="ells ells-1">
+            <ellipse class="st0" cx="384" cy="384" rx="156" ry="60"/>
+            <ellipse class="st0 st-eff st-eff-1" cx="384" cy="384" rx="156" ry="60"/>
+        </g>
+        <g class="ells ells-2">
+            <ellipse transform="matrix(0.5 -0.866 0.866 0.5 -140.5538 524.5538)" class="st0" cx="384" cy="384" rx="156" ry="60"/>
+            <ellipse transform="matrix(0.5 -0.866 0.866 0.5 -140.5538 524.5538)" class="st0 st-eff st-eff-2" cx="384" cy="384" rx="156" ry="60"/>
+        </g>
+        <g class="ells ells-3">
+            <ellipse transform="matrix(0.866 -0.5 0.5 0.866 -140.5538 243.4462)" class="st0" cx="384" cy="384" rx="60" ry="156"/>
+            <ellipse transform="matrix(0.866 -0.5 0.5 0.866 -140.5538 243.4462)" class="st0 st-eff st-eff-3" cx="384" cy="384" rx="60" ry="156"/>
+        </g>
+        <circle class="st1" cx="384" cy="384" r="31"/>
+        <ellipse class="eye" cx="384" cy="384" rx="28" ry="14"/>
+        <g mask="url(#eye-mask)">
+            <circle class="eye-ball" cx="384" cy="384" r="13"/>
+        </g>
+    </svg>
+    
+</body>
+</html>
